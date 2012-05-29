@@ -115,7 +115,7 @@
 
                 // only inspect element nodes that are not wrappers
                 else if(!$(this).hasClass(cls)) {
-                    $(this).text_highlight(text);
+                    $(this).text_highlight(text, cls);
                 }
             });
         });
